@@ -47,10 +47,11 @@ html{
 }
 
 .flex-fx-3{
+  background-color: rgb(32, 32, 32);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .img-fx-3{

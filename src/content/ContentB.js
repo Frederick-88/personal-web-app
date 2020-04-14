@@ -6,7 +6,7 @@ class ContentB extends React.Component {
     return (
       <div className="parallax"id="skill">
         <br />
-        <h1 className="h1-fx-2">SKILLS THAT I POSSESS</h1>
+        <h1 className="h1-fx-2">SKILLS THAT WE POSSESS</h1>
 
         <span className="p-fx">
           HTML & CSS
@@ -27,8 +27,8 @@ class ContentB extends React.Component {
         <br />
         <br />
         <span className="p-fx">
-          Leadership
-          <progress max="100" value="90" className="progress-bar"></progress>
+          PHYTON
+          <progress max="100" value="50" className="progress-bar"></progress>
         </span>
         <br />
         <br />

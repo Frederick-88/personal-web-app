@@ -5,7 +5,7 @@ class Navbar extends React.Component{
     render(){
         return (
             <div className="topnav">
-            <a className="active" href="#">Chen Frederick's Personal Website    </a>
+            <a className="active" href="#">FD TECHNOLOGIES    </a>
             <a href="#skill">Skills</a>
             <a href="#portofolio">Portofolio</a>
             <a href="#">Contact</a>

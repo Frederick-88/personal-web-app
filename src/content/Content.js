@@ -8,11 +8,12 @@ class Content extends React.Component {
             <div className="flex-fx">
                 <img className="img-fx" src={logo} alt=""/>
                 <br/>
-                <h1 className="h1-fx">Welcome To My Website, <br/>
-                    made with ReactJS.
-                    <br/>
-                    <br/>
-                    Look Downside for More ...</h1>
+                <h1 className="h1-fx">FD-TECHNOLOGIES <br/>
+                <br/>
+                    Together, Let's Create <br/>
+                    Something Great for <br/>
+                    The World!
+                    </h1>
 
             </div>
         )
