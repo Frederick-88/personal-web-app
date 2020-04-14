@@ -1,0 +1,146 @@
+html{
+  scroll-behavior: smooth;
+}
+.topnav {
+  background-color: rgb(15, 15, 15);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #83f1ec;;
+  color: rgb(0, 0, 0);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #61dafb;;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.flex-fx{
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.flex-fx-1{
+  background-color: rgb(17, 17, 17);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.BG-C{
+  background-color: rgb(17, 17, 17);
+}
+
+.flex-fx-3{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.img-fx-3{
+  width: 300px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .img-fx {
+    animation: App-logo-spin infinite 15s linear;
+    width: 500px;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.h1-fx{
+  font-size: 50px;
+  text-align: center;
+  color: #61dafb;
+}
+.h1-fx-1{
+  font-size: 40px;
+  text-align: center;
+  padding: 16px 60px;
+  color: rgb(17, 17, 17);
+  background-color:#61dafb ;
+  margin-bottom: 60px;
+}
+.h1-fx-2{
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+.h1-fx-3{
+  font-size: 50px;
+  text-align: center;
+  color: #61dafb;
+}
+.link-fx{
+  font-size: 30px;
+  background-color: #61dafb;
+  color: rgb(17, 17, 17);
+  padding: 20px;
+  text-decoration: none;
+}
+.link-fx:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(17, 17, 17);
+}
+
+.parallax {
+  /* The image used */
+  background-image: linear-gradient(135deg,
+          rgba(15, 15, 15, 0.9) 0%,
+          rgba(14, 14, 14, 0.8) 50%),
+      url("../component/asset/img/work.jpeg");
+
+  /* Full height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center
+}
+
+.progress-bar{
+  width: 60%;
+  height: 20px;
+  background-color: white;
+  margin-left: 30px;
+}
+progress::-webkit-progress-bar {
+  background-color: white;
+}
+progress::-webkit-progress-value {
+  background-color: #61dafb;
+}
+
+.p-fx{
+  font-size: 30px;
+  color: #61dafb;
+  font-weight: 900;
+}
