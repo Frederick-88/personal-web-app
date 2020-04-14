@@ -11,7 +11,7 @@ html{
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 15px 20px;
+  padding: 15px 30px;
   text-decoration: none;
   font-size: 25px;
 }
@@ -37,13 +37,13 @@ html{
 }
 
 .flex-fx-1{
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(32, 32, 32);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
 .BG-C{
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(32, 32, 32);
 }
 
 .flex-fx-3{

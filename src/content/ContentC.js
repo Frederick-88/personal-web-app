@@ -16,7 +16,7 @@ class ContentC extends React.Component {
           ATLASSIAN'S OFFICIAL WEBSITE
           <br/>
           <br/>
-          <a href="https://www.atlassian.com/" className="link-fx" target="blank">TESLA'S WEBSITE</a>
+          <a href="https://www.atlassian.com/" className="link-fx" target="blank">ATLASSIAN'S WEBSITE</a>
         </h1>
       </div>
 
@@ -38,7 +38,7 @@ class ContentC extends React.Component {
           NETFLIX'S OFFICIAL WEBSITE
           <br/>
           <br/>
-          <a href="https://www.netflix.com/id-en/" className="link-fx" target="blank">TESLA'S WEBSITE</a>
+          <a href="https://www.netflix.com/id-en/" className="link-fx" target="blank">NETFLIX'S WEBSITE</a>
         </h1>
       </div>
 
