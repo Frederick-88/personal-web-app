@@ -8,7 +8,7 @@ class Navbar extends React.Component{
             <a className="active" href="#">FD TECHNOLOGIES    </a>
             <a href="#skill">Skills</a>
             <a href="#portofolio">Portofolio</a>
-            <a href="#">Contact</a>
+            <a href="#footer">Contact</a>
           </div>
         )
     }
